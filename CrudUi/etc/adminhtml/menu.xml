@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sunbytes_CrudUi::view" title="Crud UI" module="Sunbytes_CrudUi" sortOrder="50" resource="Sunbytes_CrudUi::view"/>
+        <add id="Sunbytes_CrudUi::menu" title="Manage Grid" module="Sunbytes_CrudUi" sortOrder="20" parent="Sunbytes_CrudUi::view" action="crudui/index/index" resource="Sunbytes_CrudUi::menu"/>
+    </menu>
+</config>
